@@ -1,8 +1,8 @@
 import React from 'react';
+import '../styles/Sass/Header.scss';
 import { AiFillSetting, AiOutlineDown } from 'react-icons/ai';
 import { VscBellDot } from 'react-icons/vsc';
 import { GiMagnifyingGlass } from 'react-icons/gi';
-import { Search } from  './Search';
 import { RiHome3Line } from 'react-icons/ri';
 
 export default function Header() {
@@ -12,7 +12,7 @@ export default function Header() {
                 <img src="../assets/logo.png" alt="logo del sitio Docred" />
                     <GiMagnifyingGlass />
                 <div className="search">
-                    <Search />
+                   <input type= 'text' value='¿Qué estas buscando?'/>
                 </div>
                 <button>                    
                     <RiHome3Line/> Inicio <AiOutlineDown />

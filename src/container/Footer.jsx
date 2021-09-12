@@ -1,9 +1,10 @@
 import React from 'react';
+import '../styles/Sass/Footer.scss';
 
 export function Footer() {
     return (
         <div className = 'footer'>
-            <img className = 'footerImg' src='./logo.png' alt='Logo del sitio' />
+            <img className = 'footerImg' src='../assets/logo.png' alt='Logo del sitio' />
             <ul>
                 <li>
                     <a href='#'>Preguntas frecuentes</a>
