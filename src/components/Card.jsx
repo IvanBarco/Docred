@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Sass/Card.scss'
+import { img1 }  from '../assets/img1.png';
 import { BsStar } from 'react-icons/bs';
 import { BsChat } from 'react-icons/bs';
 import { AiOutlineEye } from 'react-icons/ai';
@@ -9,7 +10,7 @@ export function Card() {
         <div className='card'>
             <div className='card_img'>
                 <figure>
-                    <img src="../assets/img1.png" alt="tema de noticia" height='50px' height='50px'/>
+                    <img src={img1} alt="newsTheme" />
                 </figure> 
             </div>
             <div className='card_info'>
@@ -20,7 +21,9 @@ export function Card() {
                     <hr />
                 </span>
                 <div className='decovi'>
-                    <h4><BsStar />50</h4><h4><BsChat />40</h4><h4><AiOutlineEye />75</h4>
+                    <><BsStar /> 50 </>
+                    <><BsChat /> 40 </>
+                    <><AiOutlineEye /> 75 </>
                 </div>
             </div>
         </div>

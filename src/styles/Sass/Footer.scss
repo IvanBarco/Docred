@@ -5,9 +5,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-        &.footer-ul{
-            list-style: none;
-        }
         &.footer h5{
             color: $white-letters;
         }
@@ -17,10 +14,8 @@
         &.footer a{
             text-decoration: none;
             color: $white-letters;
-        }
-        &.footer_list{
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            justify-content: center;
         }
 }

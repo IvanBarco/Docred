@@ -8,7 +8,7 @@ import { RiHome3Line } from 'react-icons/ri';
 export function Header() {
     return (
         <div className= 'Header'>
-                <figure>
+                <figure className='header_imgLogo'>
                     <img src="../assets/img1.png" alt="logo del sitio Docred" />
                 </figure>
             <div>

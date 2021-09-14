@@ -5,9 +5,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
         &.menuButton{
-            margin: 1em 1em 1em 1em;
+            margin: 1em 2em 1em 2em;
         }
         &.menu_img{
             border-radius: 50%;
@@ -17,5 +16,8 @@
         }
         &.search{
             border-bottom-left-radius:3em ;
+        }
+        &.header_imgLogo{
+            background-position: relative;
         }
 }
