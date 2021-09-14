@@ -4,10 +4,11 @@ import { BsChat } from 'react-icons/bs';
 import { BsArrowUpRight } from 'react-icons/bs';
 import '../styles/Sass/Decoco.scss'
 
-export default function Decoco(props) {
+export function Decoco(props) {
     return (
         <div>
-            <p>
+             
+            <p className='paragraph'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aut a voluptates alias sint sed esse consequuntur itaque. Mollitia nobis ex culpa omnis, porro saepe perferendis aperiam quidem recusandae dolores.
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus repudiandae velit quidem dolore necessitatibus hic voluptatum aliquid et iusto. Pariatur ipsam reprehenderit explicabo optio fugit nihil incidunt iure illo consequuntur.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aut a voluptates alias sint sed esse consequuntur itaque. Mollitia nobis ex culpa omnis, porro saepe perferendis aperiam quidem recusandae dolores.<br />
@@ -16,9 +17,9 @@ export default function Decoco(props) {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illum recusandae autem, ratione amet corporis, adipisci voluptate enim perspiciatis ipsum exercitationem rem quos, accusamus debitis deserunt explicabo repellendus culpa fugit?<br />
             </p>
             <div className='decoco'>
-                <button className='decoco-highlight'>Destacar</button>
-                <button className='decoco-coment'>Comentar</button>
-                <button className='decoco-share'>Compartir</button>
+                <button className='decoco-highlight'><BsStar />Destacar</button>
+                <button className='decoco-coment'><BsChat />Comentar</button>
+                <button className='decoco-share'><BsArrowUpRight />Compartir</button>
             </div>
         </div>
     );

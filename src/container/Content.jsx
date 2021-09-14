@@ -3,11 +3,14 @@ import '../styles/Sass/Content.scss';
 import { Card } from '../components/Card';
 import { Decoco } from '../components/Decoco';
 
-export default function Content() {
+export function Content() {
     return (
         <div className='content'>
-            <Card />
             <Decoco />
+            <aside>
+                <Card />
+                <Card />
+            </aside>
         </div>
     )
 }

@@ -1,0 +1,12 @@
+@import '../var.scss';
+.card{
+    border: 2px solid black ;
+    border-radius: 40px;
+    background-color: $white-letters;
+    &.decovi{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+}

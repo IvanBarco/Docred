@@ -5,28 +5,27 @@ import { VscBellDot } from 'react-icons/vsc';
 import { GiMagnifyingGlass } from 'react-icons/gi';
 import { RiHome3Line } from 'react-icons/ri';
 
-export default function Header() {
+export function Header() {
     return (
-        <div>
+        <div className= 'Header'>
+                <figure>
+                    <img src="../assets/img1.png" alt="logo del sitio Docred" />
+                </figure>
             <div>
-                <img src="../assets/logo.png" alt="logo del sitio Docred" />
                     <GiMagnifyingGlass />
-                <div className="search">
-                   <input type= 'text' value='¿Qué estas buscando?'/>
-                </div>
+                   <input className='search' type= 'text' placeholder='¿Qué estas buscando?'/>
                 <button>                    
                     <RiHome3Line/> Inicio <AiOutlineDown />
                 </button>
-            </div>
-            <span>
-                <hr />
-            </span>
+            </div> 
             <div className= 'menuButton'>
-                <img src="../assets/IvanBarcoPicture.jpg" alt="foto perfil" />
-                <button className='hamburguerButton'>
+                <button className='BellButton'>
                     <VscBellDot />
-                    <AiFillSetting />
                 </button>
+                <img className='menu_img' src="../assets/IvanBarcoPicture.jpg" alt="profilePhoto" /><AiOutlineDown />
+                <button className='FillButton'>
+                    <AiFillSetting />
+                </ button>
             </div>
         </div>
     )
